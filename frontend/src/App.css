@@ -20,3 +20,16 @@
   z-index: 2;
   opacity: 0.08;
 }
+.signup_container {
+  position: absolute;
+  background-color: #0f1a27;
+  height: 100vh;
+  width: 80%;
+  max-width: 1000px;
+  z-index: 3;
+  left: 50%;
+  transform: translate(-50%);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  box-shadow: 5px 0px 8px rgba(0, 0, 0, 0.3);
+}
