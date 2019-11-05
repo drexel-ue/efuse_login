@@ -8,9 +8,11 @@ export default class App extends Component {
       backgroundImage: `url(${Background})`
     };
     return (
-      <div className="background">
-        <div className="background_color" />
-        <div className="background_image" style={backgroundStyle}></div>
+      <div className="app">
+        <div className="background">
+          <div className="background_color" />
+          <div className="background_image" style={backgroundStyle}></div>
+        </div>
       </div>
     );
   }
