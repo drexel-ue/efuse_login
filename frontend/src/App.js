@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Background from "./assets/stadium.jpg";
 import Cheer from "./assets/cheer.jpg";
 import Logo from "./assets/efuseLogo.png";
+import BrandName from "./assets/efuseName.png";
 import "./App.css";
 
 export default class App extends Component {
@@ -21,6 +22,7 @@ export default class App extends Component {
             <div className="left_container_info">
               <div className="left_container_top">
                 <img className="logo" src={Logo} alt="logo" />
+                <img className="brand_name" src={BrandName} alt="brand name" />
               </div>
             </div>
           </div>

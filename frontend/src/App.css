@@ -60,10 +60,17 @@
   margin-top: 13vh;
   width: 100%;
 }
-.left_container_title {
+.left_container_top {
   color: #ffffff;
 }
 .logo {
   width: 300px;
   margin-left: -185px;
+}
+.brand_name {
+  position: absolute;
+  display: inline-block;
+  height: 50px;
+  margin-left: -70px;
+  margin-top: 70px;
 }
