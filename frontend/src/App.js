@@ -3,9 +3,24 @@ import Background from "./assets/stadium.jpg";
 import Cheer from "./assets/cheer.jpg";
 import Logo from "./assets/efuseLogo.png";
 import BrandName from "./assets/efuseName.png";
+import LinkedIn from "./assets/linked_in.png";
+import Twitter from "./assets/twitter_icon.png";
+import Facebook from "./assets/facebook_icon.png";
+import Instargram from "./assets/instagram_icon.png";
+import TikTok from "./assets/tiktok_icon.png";
 import "./App.css";
 
 export default class App extends Component {
+  renderSocials() {
+    const socials = [LinkedIn, Twitter, Facebook, Instargram, TikTok];
+    return (
+      <div className="socials">
+        {socials.map(social => (
+          <img className="social" src={social} alt="social" />
+        ))}
+      </div>
+    );
+  }
   render() {
     const backgroundStyle = {
       backgroundImage: `url(${Background})`
@@ -45,9 +60,8 @@ export default class App extends Component {
                 </div>
               </div>
               <div className="social_container">
-                <p className='social_call_to_action'>
-                  FOLLOW OUR SOCIALS
-                </p>
+                <p className="social_call_to_action">FOLLOW OUR SOCIALS</p>
+                {this.renderSocials()}
               </div>
             </div>
           </div>
