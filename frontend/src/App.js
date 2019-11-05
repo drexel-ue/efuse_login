@@ -44,6 +44,7 @@ export default class App extends Component {
                   </p>
                 </div>
               </div>
+              <div className="social_container"></div>
             </div>
           </div>
           <div className="right_container"></div>
