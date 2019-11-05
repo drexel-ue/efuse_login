@@ -1,0 +1,19 @@
+{
+  "name": "efuse_login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drexel-ue/efuse_login.git"
+  },
+  "author": "IKesh Pack <packappsforyou@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drexel-ue/efuse_login/issues"
+  },
+  "homepage": "https://github.com/drexel-ue/efuse_login#readme"
+}
