@@ -67,7 +67,16 @@ export default class App extends Component {
               </div>
             </div>
           </div>
-          <div className="right_container"></div>
+          <div className="right_container">
+            <div className="session_container">
+              <p className="login_title">Login</p>
+              <p className="login_subtitle">login to you efuse account</p>
+              <p className="login_input_label">username</p>
+              <input className="login_input" type="email" />
+              <p className="login_input_label">password</p>
+              <input className="login_input" type="password" />
+            </div>
+          </div>
         </div>
       </div>
     );
