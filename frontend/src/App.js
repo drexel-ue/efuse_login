@@ -31,6 +31,18 @@ export default class App extends Component {
                     Connect with gamers all around the world
                   </p>
                 </div>
+                <div className="info_item">
+                  <i className="info_item_icon fas fa-search"></i>
+                  <p className="info_item_text">
+                    Discover to scholarships, tournaments, teams and events
+                  </p>
+                </div>
+                <div className="info_item">
+                  <i className="info_item_icon fas fa-file-invoice"></i>
+                  <p className="info_item_text">
+                    Track and share your professional gaming resume
+                  </p>
+                </div>
               </div>
             </div>
           </div>
