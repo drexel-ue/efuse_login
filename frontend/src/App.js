@@ -44,7 +44,11 @@ export default class App extends Component {
                   </p>
                 </div>
               </div>
-              <div className="social_container"></div>
+              <div className="social_container">
+                <p className='social_call_to_action'>
+                  FOLLOW OUR SOCIALS
+                </p>
+              </div>
             </div>
           </div>
           <div className="right_container"></div>

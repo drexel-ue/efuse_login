@@ -99,3 +99,13 @@
   justify-content: center;
   align-items: flex-start;
 }
+.social_container {
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: 500;
+  color: #ffffff;
+}
+.social_call_to_action {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
