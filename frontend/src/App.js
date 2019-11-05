@@ -24,6 +24,7 @@ export default class App extends Component {
                 <img className="logo" src={Logo} alt="logo" />
                 <img className="brand_name" src={BrandName} alt="brand name" />
               </div>
+              <div className="left_container_bottom"></div>
             </div>
           </div>
           <div className="right_container"></div>

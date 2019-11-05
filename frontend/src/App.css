@@ -74,3 +74,12 @@
   margin-left: -70px;
   margin-top: 70px;
 }
+.left_container_bottom {
+  color: #ffffff;
+  position: relative;
+  width: 100%;
+  padding: 15%;
+  padding-top: 3vh;
+  margin-left: 10px;
+  text-align: left;
+}
