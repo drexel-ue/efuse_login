@@ -17,7 +17,9 @@ export default class App extends Component {
         <div className="signup_container">
           <div className="left_container">
             <img className="cheer" src={Cheer} alt="cheer" />
-            <div className="left_container_info"></div>
+            <div className="left_container_info">
+              <div className="left_container_top"></div>
+            </div>
           </div>
           <div className="right_container"></div>
         </div>
