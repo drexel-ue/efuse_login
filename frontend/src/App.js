@@ -75,6 +75,7 @@ export default class App extends Component {
               <input className="login_input" type="email" />
               <p className="login_input_label">password</p>
               <input className="login_input" type="password" />
+              <button className="login_button">Login</button>
             </div>
           </div>
         </div>
