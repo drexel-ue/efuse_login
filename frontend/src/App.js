@@ -9,7 +9,7 @@ export default class App extends Component {
     };
     return (
       <div className="background">
-        <div className="background_color"></div>
+        <div className="background_color" />
         <div className="background_image" style={backgroundStyle}></div>
       </div>
     );
