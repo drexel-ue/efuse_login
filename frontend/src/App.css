@@ -56,3 +56,7 @@
   opacity: 0.08;
   mix-blend-mode: multiply;
 }
+.left_container_info {
+  margin-top: 13vh;
+  width: 100%;
+}
