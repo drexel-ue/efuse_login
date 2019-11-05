@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Background from "./assets/stadium.jpg";
 import Cheer from "./assets/cheer.jpg";
+import Logo from "./assets/efuseLogo.png";
 import "./App.css";
 
 export default class App extends Component {
@@ -18,7 +19,9 @@ export default class App extends Component {
           <div className="left_container">
             <img className="cheer" src={Cheer} alt="cheer" />
             <div className="left_container_info">
-              <div className="left_container_top"></div>
+              <div className="left_container_top">
+                <img className="logo" src={Logo} alt="logo" />
+              </div>
             </div>
           </div>
           <div className="right_container"></div>
