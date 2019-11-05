@@ -48,3 +48,11 @@
   padding-left: 15%;
   padding-right: 15%;
 }
+.cheer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  opacity: 0.08;
+  mix-blend-mode: multiply;
+}

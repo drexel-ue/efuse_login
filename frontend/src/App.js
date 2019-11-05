@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Background from "./assets/stadium.jpg";
+import Cheer from "./assets/cheer.jpg";
 import "./App.css";
 
 export default class App extends Component {
@@ -14,7 +15,9 @@ export default class App extends Component {
           <div className="background_image" style={backgroundStyle}></div>
         </div>
         <div className="signup_container">
-          <div className="left_container"></div>
+          <div className="left_container">
+            <img className="cheer" src={Cheer} alt="cheer" />
+          </div>
           <div className="right_container"></div>
         </div>
       </div>
