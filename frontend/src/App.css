@@ -83,3 +83,14 @@
   margin-left: 10px;
   text-align: left;
 }
+.info_item {
+  display: grid;
+  grid-template-columns: 40px 0.75fr;
+  font-size: 1.2em;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.info_item_icon {
+  margin-right: 10px;
+  font-size: 1.3em;
+}

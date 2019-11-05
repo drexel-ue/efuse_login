@@ -24,7 +24,14 @@ export default class App extends Component {
                 <img className="logo" src={Logo} alt="logo" />
                 <img className="brand_name" src={BrandName} alt="brand name" />
               </div>
-              <div className="left_container_bottom"></div>
+              <div className="left_container_bottom">
+                <div className="info_item">
+                  <i className="info_item_icon fas fa-project-diagram"></i>
+                  <p className="info_item_text">
+                    Connect with gamers all around the world
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
           <div className="right_container"></div>
