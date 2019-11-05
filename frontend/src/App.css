@@ -33,3 +33,18 @@
   grid-template-columns: 1fr 1fr;
   box-shadow: 5px 0px 8px rgba(0, 0, 0, 0.3);
 }
+.left_container {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(#33568fea, rgba(50, 89, 112, 0.918));
+  box-shadow: 5px 0px 8px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+}
+.right_container {
+  height: 100%;
+  width: 100%;
+  padding-left: 15%;
+  padding-right: 15%;
+}

@@ -13,7 +13,10 @@ export default class App extends Component {
           <div className="background_color" />
           <div className="background_image" style={backgroundStyle}></div>
         </div>
-        <div className="signup_container"></div>
+        <div className="signup_container">
+          <div className="left_container"></div>
+          <div className="right_container"></div>
+        </div>
       </div>
     );
   }
