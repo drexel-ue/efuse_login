@@ -65,11 +65,14 @@
     width: 100%;
   }
 }
-@media (max-height: 650px) {
-  .signup_container,
+@media (max-height: 600px) {
+  .signup_container {
+    height: auto;
+    min-height: 100vh;
+  }
   .background_color,
   .background_image {
-    height: 650px;
+    height: 600px;
   }
 }
 .cheer {
