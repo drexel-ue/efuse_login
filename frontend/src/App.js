@@ -12,6 +12,38 @@ import TikTok from "./assets/tiktok_icon.png";
 import "./App.css";
 
 export default class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      containerStyle: {}
+    };
+  }
+
+  componentDidMount() {
+    window.addEventListener("resize", () => {
+      const width = window.innerWidth;
+      if (width > 991)
+        this.setState({
+          containerStyle: {
+            gridTemplateColumns: "1fr 1fr"
+          }
+        });
+      else if (width > 767)
+        this.setState({
+          containerStyle: {
+            gridTemplateColumns: "1fr 1fr",
+            width: "100vh"
+          }
+        });
+      else
+        this.setState({
+          containerStyle: {
+            gridTemplateColumns: "1fr",
+            width: "100vh"
+          }
+        });
+    });
+  }
   renderSocials() {
     const socials = [LinkedIn, Twitter, Facebook, YouTube, Instargram, TikTok];
     return (
@@ -32,7 +64,7 @@ export default class App extends Component {
           <div className="background_color" />
           <div className="background_image" style={backgroundStyle}></div>
         </div>
-        <div className="signup_container">
+        <div className="signup_container" style={this.state.containerStyle}>
           <div className="left_container">
             <img className="cheer" src={Cheer} alt="cheer" />
             <div className="left_container_info">
