@@ -48,6 +48,23 @@
   padding-left: 15%;
   padding-right: 15%;
 }
+@media (max-width: 768px) {
+  .signup_container {
+    width: 100%;
+    height: auto;
+    grid-template-columns: 1fr;
+  }
+  .left_container,
+  .right_container {
+    height: auto;
+    min-height: 100vh;
+  }
+}
+@media (max-width: 991px) {
+  .signup_container {
+    width: 100%;
+  }
+}
 .cheer {
   position: absolute;
   width: 100%;
