@@ -17,33 +17,40 @@ export default class App extends Component {
     this.state = {
       containerStyle: {}
     };
+
+    this.determineLayout = this.determineLayout.bind(this);
   }
 
   componentDidMount() {
-    window.addEventListener("resize", () => {
-      const width = window.innerWidth;
-      if (width > 991)
-        this.setState({
-          containerStyle: {
-            gridTemplateColumns: "1fr 1fr"
-          }
-        });
-      else if (width > 767)
-        this.setState({
-          containerStyle: {
-            gridTemplateColumns: "1fr 1fr",
-            width: "100vh"
-          }
-        });
-      else
-        this.setState({
-          containerStyle: {
-            gridTemplateColumns: "1fr",
-            width: "100vh"
-          }
-        });
-    });
+    this.determineLayout();
+    window.addEventListener("resize", this.determineLayout);
   }
+
+  determineLayout() {
+    const width = window.innerWidth;
+    if (width > 991)
+      this.setState({
+        containerStyle: {
+          gridTemplateColumns: "1fr 1fr"
+        }
+      });
+    else if (width > 767)
+      this.setState({
+        containerStyle: {
+          gridTemplateColumns: "1fr 1fr",
+          width: "100vh"
+        }
+      });
+    else
+      this.setState({
+        containerStyle: {
+          gridTemplateColumns: "1fr",
+          width: "100vh",
+          height: ""
+        }
+      });
+  }
+
   renderSocials() {
     const socials = [LinkedIn, Twitter, Facebook, YouTube, Instargram, TikTok];
     return (
