@@ -22,10 +22,12 @@ export default class App extends Component {
       </div>
     );
   }
+
   render() {
     const backgroundStyle = {
       backgroundImage: `url(${Background})`
     };
+
     return (
       <div className="app">
         <div className="background">
