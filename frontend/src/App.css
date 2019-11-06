@@ -65,6 +65,13 @@
     width: 100%;
   }
 }
+@media (max-height: 650px) {
+  .signup_container,
+  .background_color,
+  .background_image {
+    height: 650px;
+  }
+}
 .cheer {
   position: absolute;
   width: 100%;
