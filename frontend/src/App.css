@@ -44,9 +44,12 @@
 }
 .right_container {
   height: 100%;
-  width: 100%;
+  width: fit-content;
   padding-left: 15%;
   padding-right: 15%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 @media (max-width: 768px) {
   .signup_container {
@@ -104,7 +107,7 @@
 .left_container_bottom {
   color: #ffffff;
   position: relative;
-  width: 100%;
+  width: fit-content;
   padding: 15%;
   padding-top: 3vh;
   margin-left: 10px;
@@ -192,7 +195,7 @@
 .login_button {
   display: block;
   margin-top: 35px;
-   margin-bottom: 50px;
+  margin-bottom: 50px;
   width: 109%;
   height: calc(1.5em + 0.75rem + 2px);
   padding: 0.375rem 0.75rem;
