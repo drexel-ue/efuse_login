@@ -31,7 +31,8 @@ export default class App extends Component {
     if (width > 991)
       this.setState({
         containerStyle: {
-          gridTemplateColumns: "1fr 1fr"
+          gridTemplateColumns: "1fr 1fr",
+          width: "80%"
         }
       });
     else if (width > 767)
